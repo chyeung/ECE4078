@@ -8,7 +8,7 @@ def compute_distance_between_points(p1, p2):
     dx = p2[0] - p1[0]
     dy = p2[1] - p1[1]
 
-    return math.hypot(dx, dy)
+    return math.hypot(dx, dy) # returns the squareroot of the sum of squares
 
 
 def is_point_in_segment(start_seg, end_seg, point_q):
